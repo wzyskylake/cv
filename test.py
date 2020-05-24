@@ -25,8 +25,8 @@ np4 = np.array([2, 1], np.int32, ndmin=2)
 npa = np.array([np1, np2, np3, np4], np.int32)
 
 cnts.append(npa)
-# max1=max(list,cnts)
+
 max=max(cnts,key=cv2.contourArea)
-# c = max(max1,max2)
+
 
 print(type(cnts))
